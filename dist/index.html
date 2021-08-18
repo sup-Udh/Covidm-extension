@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Covid 19</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="header">Covid 19
+        by udhay
+    </div>
+    <div class="container">
+    <form class="form-data" autocomplete="on">
+      <div class="enter-country">
+        <b>Enter a country name:</b>
+      </div>
+      <div>
+        <input type="text" class="country-name" />
+      </div><br>
+      <button class="search-btn">Search</button>
+    </form>
+    <div class="result">
+      <div class="loading">loading...</div>
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <p><strong>New cases: </strong><span class="todayCases"></span></p>
+        <p><strong>New deaths: </strong><span class="todayDeaths"></span></p>
+        <p><strong>Total cases: </strong><span class="cases"></span></p>
+        <p><strong>Total recovered: </strong> <span class="recovered"></span></p>
+        <p><strong>Total deaths: </strong><span class="deaths"></span></p>
+        <p><strong>Total tests: </strong><span class="tests"></span></p>
+        <center><span class="safe">Stay Safe and Healthy</span></center>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
