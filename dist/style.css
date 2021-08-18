@@ -7,3 +7,7 @@ body{
     width: 450px;
     height:450px;
 }
+
+.header{
+    font-size: large;
+}
