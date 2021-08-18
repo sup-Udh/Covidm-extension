@@ -1,3 +1,9 @@
 .container{
     background-color: azure;
 }
+
+
+body{
+    width: 450px;
+    height:450px;
+}
